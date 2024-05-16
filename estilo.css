@@ -1,0 +1,103 @@
+
+/* projeto biografia */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+body {
+
+
+}
+#menu {
+    background-color: #4a8a8a;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001; /* Para que o menu fique acima do cabeçalho */
+}
+#menu ul {
+   list-style: none;
+}
+#menu ul li {
+   display: inline;
+   
+}
+#menu ul li a {
+   display: inline-block;
+   padding: 15px 20px;
+   font-family: Chopin;
+   color:  white;
+}
+#menu ul li a:hover {
+   background-color: brown;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(foto2.jpg);
+}
+header h1 {
+    font-size: 120px;
+    margin-right: 800px;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+#parte1, #parte2, #parte3, #parte4 {
+    height: 100vh;
+
+}
+.colunas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    height: 700px;
+}
+
+.colunas h1 {
+    font-size: 35pt;
+
+}
+.colunas h2 {
+    font-size: 30pt;
+
+}
+.colunas p, ul {
+    font-size: 20pt;
+
+}
+
+.esquerdo, .direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.esquerdo {
+    width: 48%;
+    background-color: white;
+    height: 100%;
+}
+.direito {
+    width: 48%; 
+    height: 100%;
+}
+
+.colunas img{
+    height: 98%;
+    overflow: hidden;
+}
